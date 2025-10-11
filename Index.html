@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>MY PORTFOLIO</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
 </head>
@@ -13,40 +13,56 @@
     
     <header class="site-header">
         <nav class="navbar">
-            <h1 class="logo">Luyanda Mahlangu</h1>
+            <h1 class="logo">Luyanda <span>Mahlangu</span></h1>
+
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a> </li>
                 <li><a href="#certificates">Certificates</a></li>
                 <li><a href="#projects">Projects</a> </li>
                 <li><a href="#contact">Contacts</a></li>
-        </ul>
-    </nav>
-</header>
+            </ul>
+        </nav>
+    </header>
 
- <section id="home" class="hero">
-        <div class="hero-content">
-            <h2>Creative Technologist | student of inovation</h2>
-            <p>A Digital Media student passionate about creative storytelling, web design, and innovation.</p>
+    
+    <section id="home" class="hero">
+        <div class="hero-inner">
+
+            <div class="hero-content">
+                <h2>Creative Technologist <span>| Student of Innovation</span></h2>
+                <p>A Digital Media student passionate about creative storytelling, web design, and innovation. I build beautiful, functional websites using HTML, CSS, JavaScript and Python.</p>
+                <div class="hero-cta">
+                  <a href="#projects" class="btn primary">View My Work</a>
+                  <a href="Luyanda Mahlangu-CV.pdf" download class="btn ghost">Download CV</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="images/banner.png" alt="Laptop with code on screen">
+            </div>
+
         </div>
     </section>
 
-        <section id="about" class="about">
+    <section id="about" class="about">
         <h2>About Me</h2>
         <div class="about-content">
-            <img src="images/profile.jpg" alt="Luyanda Mahlangu portrait" class="profile-image">
+            <img src="images/profilepicture.jpg" alt="Luyanda Mahlangu portrait" class="profile-image">
             <div class="about-text">
                 <p>
-                   I'm Luyanda Mahlangu, a Multimedia student at the University of Johannesburg. I’m passionate about building beautiful, functional websites using HTML, CSS, JavaScript, and Python. I love turning creative ideas into digital realities. from smooth interactive forms to bold landing pages. I believe in lifelong learning and constantly growing my craft
-                <br>
+                   I'm Luyanda Mahlangu, a Multimedia student at the University of Johannesburg. I’m passionate about building beautiful, functional websites using HTML, CSS, JavaScript, and Python. I love turning creative ideas into digital realities — from smooth interactive forms to bold landing pages. I believe in lifelong learning and constantly growing my craft.
+                </p>
+                <p>
                    My long-term goal is to become a professional front-end web developer, contributing to real-world projects that make an impact. Right now, I’m focused on sharpening my coding skills and building a strong portfolio that showcases what I can do.
                 </p>
-                <a href="LuyandaMahlanguCV.pdf" download class="btn">Download My CV</a>
+                <a href="LuyandaMahlanguCV.pdf" download class="btn primary">Download My CV</a>
             </div>
         </div>
     </section>
 
-     <section id="certificates" class="certificates">
+    
+    <section id="certificates" class="certificates">
         <h2>Certificates</h2>
         <div class="certificate-gallery">
             <img src="images/cert1.png" alt="Certificate 1">
@@ -58,54 +74,80 @@
         </div>
     </section>
 
+    
     <section id="projects" class="projects-section" data-aos="zoom-in">
         <h2>My Projects</h2>
         <div class="project-list">
+
             <div class="project-card">
+                <div class="project-thumb">
+                    <img src="images/project-placeholder.png" alt="Interactive Form">
+                </div>
                 <h3>Interactive Form</h3>
-                <p>A form built with HTML, CSS And JavaScript</p>
-                <a href="https://curious-cannoli-120184.netlify.app/" target="_blank">View Project</a>
+                <p>A form built with HTML, CSS and JavaScript.</p>
+                <a class="btn primary" href="https://curious-cannoli-120184.netlify.app/" target="_blank">View Project</a>
             </div>
 
             <div class="project-card">
+                <div class="project-thumb">
+                    <img src="images/project-placeholder.png" alt="Coffee Landing Page">
+                </div>
                 <h3>Coffee Landing Page</h3>
-                <p>A Stylish homepage layout for a coffee brand using custom CSS</p>
-                <a href="https://cute-dasik-97e39b.netlify.app/" target="_blank">View Project</a>
+                <p>A stylish homepage layout for a coffee brand using custom CSS.</p>
+                <a class="btn primary" href="https://cute-dasik-97e39b.netlify.app/" target="_blank">View Project</a>
             </div>
+
             <div class="project-card">
+                <div class="project-thumb">
+                    <img src="images/project-placeholder.png" alt="Cat Adoption Form">
+                </div>
                 <h3>Cat Adoption Form</h3>
                 <p>Playful adoption form layout with custom design.</p>
-                <a href="https://luyandamahlangu.netlify.app/" target="_blank">View Project</a>
+                <a class="btn primary" href="https://luyandamahlangu.netlify.app/" target="_blank">View Project</a>
             </div>
-
 
             <div class="project-card">
+                <div class="project-thumb">
+                    <img src="images/project-placeholder.png" alt="Bhoyi Accountants">
+                </div>
                 <h3>Bhoyi Accountants Website</h3>
-                <p>A professional site built with HTML, CSS, and JavaScript.</p>
-                <a href="https://bhoyiaccountants.co.za/" target="_blank">View Project</a>
+                <p>A professional site built with HTML, CSS and JavaScript.</p>
+                <a class="btn primary" href="https://bhoyiaccountants.co.za/" target="_blank">View Project</a>
             </div>
+
          </div>
     </section>
 
-      <section id="contact" class="contact">
+   
+    <section id="contact" class="contact">
         <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:luyandamahlangu@gmail.com">luyandamahlangu@gmail.com</a></p>
-        <div class="social-links">
-        <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
-        <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
-        <a href="#"><i class="fab fa-github"></i> GitHub</a>
-     </div>
 
+        
+        <form id="contactForm" action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <input type="text" name="subject" placeholder="Subject (optional)">
+            <textarea name="message" rows="6" placeholder="Your message" required></textarea>
+            <input type="hidden" name="_subject" value="New contact from portfolio">
+            <button type="submit" class="btn primary">Send Message</button>
+        </form>
+
+        <div class="contact-extra">
+            <p>Email: <a href="mailto:luyandamahlangu@gmail.com">luyandamahlangu@gmail.com</a></p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
     </section>
 
     <footer>
         <p>© 2025 Luyanda Mahlangu | All Rights Reserved</p>
     </footer>
 
+    <!-- AOS and init -->
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-    <script>
-       AOS.init();
-    </script>
+    <script> AOS.init(); </script>
 </body>
 </html>
